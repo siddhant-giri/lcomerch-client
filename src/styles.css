@@ -1,0 +1,44 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+*{
+  overflow-y : none
+}
+
+body {
+  background-color: #121117;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 50px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(0deg, rgba(255,62,62,1) 35%, rgba(112,0,255,1) 100%); 
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(255,62,62,1) 35%, rgba(112,0,255,1) 100%); 
+}
+
+
+
+footer{
+  /* position: absolute; */
+  bottom: 0;
+  right : 0px;
+  left : 0px;
+}
